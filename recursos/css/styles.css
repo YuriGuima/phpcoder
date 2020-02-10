@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Teko', sans-serif;
 }
 
 body {
@@ -68,3 +69,74 @@ body {
     padding-right: 20px;
     color: rgb(199, 199, 199);
 }
+
+.modulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.modulo {
+    flex-basis: 32%;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.modulo > h3 {
+    margin: 0px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.7rem;
+    padding: 6px 20px;
+    background-color: rgb(50, 119, 209);
+}
+
+.modulo > ul {
+    margin: 0px;
+    padding: 10px;
+    list-style: none;
+}
+
+.modulo > ul > li {
+    padding: 5px 3px 3px 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.modulo > ul > li > a {
+    display: flex;
+    padding-left: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.modulo > ul > li:hover {
+    background-color: #dadada;
+}
+
+.modulo.green { border: 2px solid green; }
+.modulo.green > h3 { background-color: green; }
+
+.modulo.cadet { border: 2px solid cadetblue; }
+.modulo.cadet > h3 { background-color: cadetblue; }
+
+.modulo.blue { border: 2px solid rgb(50, 119, 209); }
+.modulo.blue > h3 { background-color: rgb(50, 119, 209); }
+
+.modulo.purple { border: 2px solid purple; }
+.modulo.purple > h3 { background-color: purple; }
+
+.modulo.orange { border: 2px solid orange; }
+.modulo.orange > h3 { background-color: orange; }
+
+.modulo.darkgreen { border: 2px solid darkgreen; }
+.modulo.darkgreen > h3 { background-color: darkgreen; }
+
+.modulo.darkred { border: 2px solid darkred; }
+.modulo.darkred > h3 { background-color: darkred; }
+
+.modulo.black { border: 2px solid black; }
+.modulo.black > h3 { background-color: black; }
+
+.modulo.darkcyan { border: 2px solid darkcyan; }
+.modulo.darkcyan > h3 { background-color: darkcyan; }
