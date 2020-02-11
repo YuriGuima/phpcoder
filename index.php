@@ -62,6 +62,30 @@
                     </ul>
                 </div>
 
+                <div class="modulo blue">
+                    <h3>Módulo 02 - Variáveis</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=basico">Básico</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=interpolacao">Interpolação</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=varvariaveis">Varia.Variaveis</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=constantes">Constantes</a>
+                        </li>
+                    </ul>
+                </div>
+
             </nav>
         </div>
     </main>

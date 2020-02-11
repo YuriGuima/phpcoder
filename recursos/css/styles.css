@@ -120,10 +120,10 @@ body {
 .modulo.cadet { border: 2px solid cadetblue; }
 .modulo.cadet > h3 { background-color: cadetblue; }
 
-/* .modulo.blue { border: 2px solid rgb(50, 119, 209); }
+.modulo.blue { border: 2px solid rgb(50, 119, 209); }
 .modulo.blue > h3 { background-color: rgb(50, 119, 209); }
 
-.modulo.purple { border: 2px solid purple; }
+/* .modulo.purple { border: 2px solid purple; }
 .modulo.purple > h3 { background-color: purple; }
 
 .modulo.orange { border: 2px solid orange; }
