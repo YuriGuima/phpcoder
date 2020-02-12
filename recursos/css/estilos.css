@@ -123,11 +123,14 @@ body {
 .modulo.blue { border: 2px solid rgb(50, 119, 209); }
 .modulo.blue > h3 { background-color: rgb(50, 119, 209); }
 
-/* .modulo.purple { border: 2px solid purple; }
-.modulo.purple > h3 { background-color: purple; }
+.modulo.purple { border: 2px solid #713a71; }
+.modulo.purple > h3 { background-color: #713a71; }
 
-.modulo.orange { border: 2px solid orange; }
-.modulo.orange > h3 { background-color: orange; }
+.modulo.black { border: 2px solid #1f1f1ffc; }
+.modulo.black > h3 { background-color: #1f1f1ffc; }
+
+/* .modulo.darkcyan { border: 2px solid darkcyan; }
+.modulo.darkcyan > h3 { background-color: darkcyan; }
 
 .modulo.darkgreen { border: 2px solid darkgreen; }
 .modulo.darkgreen > h3 { background-color: darkgreen; }
@@ -135,8 +138,4 @@ body {
 .modulo.darkred { border: 2px solid darkred; }
 .modulo.darkred > h3 { background-color: darkred; }
 
-.modulo.black { border: 2px solid black; }
-.modulo.black > h3 { background-color: black; }
-
-.modulo.darkcyan { border: 2px solid darkcyan; }
-.modulo.darkcyan > h3 { background-color: darkcyan; } */
+ */

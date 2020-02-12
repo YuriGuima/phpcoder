@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="recursos/css/styles.css">
+    <!-- <link rel="stylesheet" href="recursos/css/styles.css"> -->
+    <link rel="stylesheet" href="recursos/css/estilos.css">
     <title>PHP Coder</title>
 </head>
 
@@ -63,7 +64,7 @@
                 </div>
 
                 <div class="modulo blue">
-                    <h3>Módulo 02 - Variáveis</h3>
+                    <h3>Módulo 03 - Variáveis</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=variaveis&file=basico">Básico</a>
@@ -82,6 +83,36 @@
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=variaveis&file=constantes">Constantes</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="modulo purple">
+                    <h3>Módulo 07 - Array</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=basico">Básico</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=constantes">Arrays Constantes</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=get">$_GET</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=post">$_POST</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="modulo black">
+                    <h3>Módulo 08 - Estruturas de Controle</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=estrutura_controle&file=for">For</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=estrutura_controle&file=foreach">Foreach</a>
                         </li>
                     </ul>
                 </div>
