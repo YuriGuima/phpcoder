@@ -129,10 +129,10 @@ body {
 .modulo.black { border: 2px solid #1f1f1ffc; }
 .modulo.black > h3 { background-color: #1f1f1ffc; }
 
-/* .modulo.darkcyan { border: 2px solid darkcyan; }
-.modulo.darkcyan > h3 { background-color: darkcyan; }
+.modulo.orange { border: 2px solid #d68f2e; }
+.modulo.orange > h3 { background-color: #d68f2e; }
 
-.modulo.darkgreen { border: 2px solid darkgreen; }
+/* .modulo.darkgreen { border: 2px solid darkgreen; }
 .modulo.darkgreen > h3 { background-color: darkgreen; }
 
 .modulo.darkred { border: 2px solid darkred; }

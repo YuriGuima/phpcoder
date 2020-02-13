@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="recursos/css/styles.css"> -->
-    <link rel="stylesheet" href="recursos/css/estilos.css">
+    <link rel="stylesheet" href="recursos/css/estilo.css">
     <title>PHP Coder</title>
 </head>
 
@@ -113,6 +113,27 @@
                         </li>
                         <li>
                             <a href="exercicio.php?dir=estrutura_controle&file=foreach">Foreach</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="modulo orange">
+                    <h3>Módulo 08 - Funções</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=estrutura_controle&file=for">For</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcao&file=escopo">Escopo</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcao&file=arg_variavel">Argumentos Variáveis</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcao&file=arg_padrao">Argumento Padrão</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcao&file=map_filter">Map e Filter</a>
                         </li>
                     </ul>
                 </div>
