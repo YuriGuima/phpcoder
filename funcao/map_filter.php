@@ -2,7 +2,7 @@
 
 <?php
 
-$notas = array(1.2,2.3,3.4,4.5,5.6);
+$notas = array(1.2, 2.3, 3.4, 4.5);
 
 // echo join(array_map(round,$notas),' - ');
 

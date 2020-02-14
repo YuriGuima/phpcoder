@@ -118,7 +118,7 @@
                 </div>
                 
                 <div class="modulo orange">
-                    <h3>Módulo 08 - Funções</h3>
+                    <h3>Módulo 09 - Funções</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=estrutura_controle&file=for">For</a>
@@ -134,6 +134,24 @@
                         </li>
                         <li>
                             <a href="exercicio.php?dir=funcao&file=map_filter">Map e Filter</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="modulo darkred">
+                    <h3>Módulo 10 - Poo</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=poo&file=membros">Testes</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=poo&file=classe">Primeira Classe</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=poo&file=const_dest">Construtor e Destrutor</a>
+                        </li>
+                        <li>
+                            <a href="teste.html">Teste</a>
                         </li>
                     </ul>
                 </div>
