@@ -151,8 +151,29 @@
                             <a href="exercicio.php?dir=poo&file=const_dest">Construtor e Destrutor</a>
                         </li>
                         <li>
-                            <a href="teste.html">Teste</a>
+                            <a href="exercicio.php?dir=poo&file=heranca">Herança</a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=poo&file=estatico">Membros Estáticos</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=poo&file=interface">Interface</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=poo&file=abstratic_class">Classe Abstrata</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=poo&file=final">Modificador Final</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=poo&file=traits">Traits #01</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=poo&file=traits_2">Traits #02</a>
+                        </li>
+                        <!-- <li>
+                            <a href="teste.html">Teste</a>
+                        </li> -->
                     </ul>
                 </div>
 
