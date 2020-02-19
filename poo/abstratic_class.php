@@ -9,7 +9,7 @@ abstract class Abstrata {
 
 abstract class FilhaAbstrata extends Abstrata {
     public function metodo1() {
-        echo 'Executando metodod1<br>';
+        echo 'Executando metodo 1<br>';
     }
 
     abstract public function metodo3();

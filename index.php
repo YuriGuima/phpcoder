@@ -171,6 +171,12 @@
                         <li>
                             <a href="exercicio.php?dir=poo&file=traits_2">Traits #02</a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=poo&file=magic_methods">Métodos Mágicos</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=poo&file=polimorfismo">Polimorfismo</a>
+                        </li>
                         <!-- <li>
                             <a href="teste.html">Teste</a>
                         </li> -->
