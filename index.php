@@ -182,6 +182,24 @@
                         </li> -->
                     </ul>
                 </div>
+                
+                <div class="modulo darkgreen">
+                    <h3>Módulo 11 - Includes</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=include">Include</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=include_funcao">Include Função</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=include_require">Include Vs Require</a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=require_return">Require & Return</a>
+                        </li>
+                    </ul>
+                </div>
 
             </nav>
         </div>
