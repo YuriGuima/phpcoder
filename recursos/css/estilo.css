@@ -137,3 +137,9 @@ body {
 
 .modulo.darkgreen { border: 2px solid darkgreen; }
 .modulo.darkgreen > h3 { background-color: darkgreen; }
+
+.modulo.darkblue { border: 2px solid rgb(32, 67, 182); }
+.modulo.darkblue > h3 { background-color: rgb(32, 67, 182); }
+
+.modulo.grey { border: 2px solid grey; }
+.modulo.grey > h3 { background-color: grey; }
