@@ -12,3 +12,19 @@ try{
 } finally {
     echo 'Sempre executado!';
 }
+
+// class Teste extends Exception { Daqui pra baixo não tem nada a ver com o curso
+
+//     public function __construct($val){
+//         parent::__construct($val);
+//     }
+
+// }
+
+// try{
+//     if(2>1){
+//         throw new Teste('Erro!');
+//     }
+// }catch(Teste $e){
+//     echo 'Error found: '.$e->getMessage();
+// }
