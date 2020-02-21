@@ -1,3 +1,7 @@
+<?php
+require_once('user_exist.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 

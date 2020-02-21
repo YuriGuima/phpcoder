@@ -16,6 +16,7 @@ $_SESSION['nome'] = 'Anakin';
 $_SESSION['email'] = 'anakin@jedi.com';
 
 print_r($_SESSION);
+
 ?>
 
 <p>

@@ -1,3 +1,7 @@
+<?php
+require_once('user_exist.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,6 +22,10 @@
         <h1>Curso PHP</h1>
         <h2>Índice dos Exercícios</h2>
     </header>
+
+    <nav class="navegacao">
+        
+    </nav>
 
     <main class="principal">
         <div class="conteudo">
