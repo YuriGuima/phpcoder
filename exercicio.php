@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="recursos/css/exercicio.css">
     <title>PHP Coder - Exercício</title>
 </head>
+
 <body class="exercicio">
     
     <header class="cabecalho">
@@ -25,7 +27,15 @@
         <div class="conteudo">
             
             <?php
-                include("{$_GET['dir']}/{$_GET['file']}.php");
+                error_reporting(E_ERROR);
+                $diretorio = "{$_GET['dir']}/{$_GET['file']}.php";
+                try {
+                    if(!include($diretorio)) {
+                        throw new Error($diretorio);
+                    };
+                } catch(Error $e) {
+                    echo "Diretório inexistente: /{$e->getMessage()}";
+                }
             ?>    
         
         </div>

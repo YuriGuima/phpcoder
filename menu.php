@@ -154,9 +154,6 @@
             <li>
                 <a href="exercicio.php?dir=poo&file=polimorfismo">Polimorfismo</a>
             </li>
-            <!-- <li>
-                <a href="teste.html">Teste</a>
-            </li> -->
         </ul>
     </div>
     
