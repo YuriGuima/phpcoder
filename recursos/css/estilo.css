@@ -163,6 +163,19 @@ body {
     font-weight: 300;
     font-size: 1.5rem;
     background-color: rgb(50, 119, 209);
-    padding: 5px 10px;
+    padding: 2px 12px;
     margin-right: 10px;
+    transition: background-color 0.23s;
+}
+
+.navegacao > a:hover {
+    background-color: rgb(43, 103, 182);
+}
+
+span.user {
+    flex-grow: 1;
+    justify-self: flex-start;
+    padding-left: 10px;
+    font-size: 1.3rem;
+    color: white;
 }

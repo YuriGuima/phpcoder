@@ -1,5 +1,15 @@
 <?php
-require_once('user_exist.php');
+
+session_start();
+
+if($_COOKIE['user']) {
+    $_SESSION['user'] = $_COOKIE['user'];
+}
+
+if(!$_SESSION['user']) {
+    header('Location: login.php');
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -24,7 +34,8 @@ require_once('user_exist.php');
     </header>
 
     <nav class="navegacao">
-        
+        <span class="user">Usuário: <?= $_SESSION['user'] ?></span>
+        <a href="logout.php" class="darkred">Sair</a>
     </nav>
 
     <main class="principal">

@@ -1,6 +1,7 @@
 <?php
 
 session_start();
+error_reporting(E_ERROR);
 
 $email = $_POST['email'];
 $senha = $_POST['senha'];
@@ -8,9 +9,9 @@ $senha = $_POST['senha'];
 if($_POST['email']){
     $usuarios = [
         [
-            "nome" => "Aluno Cod3r",
-            "email" => "aluno@cod3r.com.br",
-            "senha" => "123456",
+            "nome" => "Yuri",
+            "email" => "yuri@email.com",
+            "senha" => "1234",
         ],
         [
             "nome" => "Outro Aluno",
@@ -25,12 +26,14 @@ if($_POST['email']){
 
         if($emailValido && $senhaValida) {
             $_SESSION['errors'] = null;
-            $_SESSION['usuario'] = $usuario['nome'];
+            $_SESSION['user'] = $usuario['nome'];
+            $exp = time() + 60 * 60 * 24 * 30;
+            setcookie('user', $usuario['nome'], $exp);
             header('Location: index.php');
         }
     }
 
-    if(!$_SESSION['usuario']) {
+    if(!$_SESSION['user']) {
         $_SESSION['errors'] = ['Usuário/Senha inválido'];
     }
 }
@@ -58,8 +61,6 @@ if($_POST['email']){
         <h1>Curso PHP</h1>
         <h2>Welcome!</h2>
     </header>
-        
-    </nav>
 
     <main class="principal">
         <div class="conteudo">
@@ -68,7 +69,7 @@ if($_POST['email']){
             <?php if($_SESSION['errors']): ?>
                 <div class="errors">
                     <?php foreach ($_SESSION['errors'] as $error):?>
-                        <p><?= $erro ?></p>
+                        <p><?= $error ?></p>
                     <?php endforeach ?>
                 </div>
             <?php endif ?>
@@ -77,13 +78,15 @@ if($_POST['email']){
             <form action="#" method="post">
                 <div>
                     <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" required>
                 </div>
                 <div>
                     <label for="senha">Senha</label>
-                    <input type="password" name="senha" id="senha">
+                    <input type="password" name="senha" id="senha" required>
                 </div>
-                <button>Entrar</button>
+                <div id="divButton">
+                    <button>Entrar</button>
+                </div>
             </form>
 
         </div>
