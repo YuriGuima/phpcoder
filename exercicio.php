@@ -1,3 +1,17 @@
+<?php
+
+session_start();
+
+if($_COOKIE['user']) {
+    $_SESSION['user'] = $_COOKIE['user'];
+}
+
+if(!$_SESSION['user']) {
+    header('Location: login.php');
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,7 +34,8 @@
 
     <nav class="navegacao">
         <a href=<?= "{$_GET['dir']}/{$_GET['file']}.php" ?> class="green">Sem formatação</a>
-        <a href="index.php" class="darkred">Voltar</a>
+        <a href="index.php">Voltar</a>
+        <a href="logout.php" class="darkred">Sair</a>
     </nav>
 
     <main class="principal">

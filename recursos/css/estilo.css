@@ -8,10 +8,11 @@ body {
     height: 100vh;
     margin: 0px;
     display: grid;
-    grid-template-rows: 130px 1fr 60px;
+    grid-template-rows: 120px 60px 1fr 60px;
     grid-template-columns: 1fr;
     grid-template-areas: 
         "cabecalho"
+        "navegacao"
         "principal"
         "rodape";
 }
@@ -43,7 +44,8 @@ body {
 
 .principal {
     grid-area: principal;
-    height: calc(100vh - 180px);
+    /* height: calc(100vh - 180px); */
+    height: calc(100vh - 240px);
     /* background-color: rgb(240, 240, 240); */
     padding: 20px;
 }
@@ -114,32 +116,66 @@ body {
     background-color: #dadada;
 }
 
-.modulo.green { border: 2px solid green; }
-.modulo.green > h3 { background-color: green; }
+.modulo.green { border: 2px solid rgb(180, 180, 180); }
+.modulo.green > h3 { background-color: rgb(180, 180, 180);; }
 
-.modulo.cadet { border: 2px solid cadetblue; }
-.modulo.cadet > h3 { background-color: cadetblue; }
+.modulo.cadet { border: 2px solid rgb(170, 170, 170); }
+.modulo.cadet > h3 { background-color: rgb(170, 170, 170); }
 
-.modulo.blue { border: 2px solid rgb(50, 119, 209); }
-.modulo.blue > h3 { background-color: rgb(50, 119, 209); }
+.modulo.blue { border: 2px solid rgb(160, 160, 160); }
+.modulo.blue > h3 { background-color: rgb(160, 160, 160); }
 
-.modulo.purple { border: 2px solid #713a71; }
-.modulo.purple > h3 { background-color: #713a71; }
+.modulo.purple { border: 2px solid rgb(150, 150, 150); }
+.modulo.purple > h3 { background-color: rgb(150, 150, 150); }
 
-.modulo.black { border: 2px solid #1f1f1ffc; }
-.modulo.black > h3 { background-color: #1f1f1ffc; }
+.modulo.black { border: 2px solid rgb(140, 140, 140); }
+.modulo.black > h3 { background-color: rgb(140, 140, 140); }
 
-.modulo.orange { border: 2px solid #d68f2e; }
-.modulo.orange > h3 { background-color: #d68f2e; }
+.modulo.orange { border: 2px solid rgb(130, 130, 130); }
+.modulo.orange > h3 { background-color: rgb(130, 130, 130); }
 
-.modulo.darkred { border: 2px solid darkred; }
-.modulo.darkred > h3 { background-color: darkred; }
+.modulo.darkred { border: 2px solid rgb(120, 120, 120); }
+.modulo.darkred > h3 { background-color: rgb(120, 120, 120); }
 
-.modulo.darkgreen { border: 2px solid darkgreen; }
-.modulo.darkgreen > h3 { background-color: darkgreen; }
+.modulo.darkgreen { border: 2px solid rgb(110, 110, 110); }
+.modulo.darkgreen > h3 { background-color: rgb(110, 110, 110); }
 
-.modulo.darkblue { border: 2px solid rgb(32, 67, 182); }
-.modulo.darkblue > h3 { background-color: rgb(32, 67, 182); }
+.modulo.darkblue { border: 2px solid rgb(100, 100, 100); }
+.modulo.darkblue > h3 { background-color: rgb(100, 100, 100); }
 
-.modulo.grey { border: 2px solid grey; }
-.modulo.grey > h3 { background-color: grey; }
+.modulo.grey { border: 2px solid rgb(90, 90, 90); }
+.modulo.grey > h3 { background-color: rgb(90, 90, 90); }
+
+.modulo.pink { border: 2px solid rgb(80, 80, 80); }
+.modulo.pink > h3 { background-color: rgb(80, 80, 80); }
+
+.navegacao {
+    grid-area: navegacao;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #555;
+}
+
+.navegacao > a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.5rem;
+    background-color: rgb(50, 119, 209);
+    padding: 2px 12px;
+    margin-right: 10px;
+    transition: background-color 0.23s;
+}
+
+.navegacao > a:hover {
+    background-color: rgb(43, 103, 182);
+}
+
+span.user {
+    flex-grow: 1;
+    justify-self: flex-start;
+    padding-left: 10px;
+    font-size: 1.3rem;
+    color: white;
+}
