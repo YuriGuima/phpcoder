@@ -113,7 +113,7 @@ body {
 }
 
 .modulo > ul > li:hover {
-    background-color: #dadada;
+    background-color: rgb(221, 221, 221);;
 }
 
 .modulo.green { border: 2px solid rgb(180, 180, 180); }
@@ -148,6 +148,9 @@ body {
 
 .modulo.pink { border: 2px solid rgb(80, 80, 80); }
 .modulo.pink > h3 { background-color: rgb(80, 80, 80); }
+
+.modulo.api { border: 2px solid rgb(70, 70, 70); }
+.modulo.api > h3 { background-color: rgb(70, 70, 70); }
 
 .navegacao {
     grid-area: navegacao;
