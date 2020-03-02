@@ -16,7 +16,7 @@
             </li>
         </ul>
     </div>
-    <div class="modulo cadet">
+    <div class="modulo integracao">
         <h3>Módulo 02 - Tipos</h3>
         <ul>
             <li>
@@ -40,7 +40,7 @@
         </ul>
     </div>
 
-    <div class="modulo blue">
+    <div class="modulo basicos">
         <h3>Módulo 03 - Variáveis</h3>
         <ul>
             <li>
@@ -64,7 +64,7 @@
         </ul>
     </div>
     
-    <div class="modulo purple">
+    <div class="modulo vars">
         <h3>Módulo 07 - Array</h3>
         <ul>
             <li>
@@ -82,7 +82,7 @@
         </ul>
     </div>
     
-    <div class="modulo black">
+    <div class="modulo estrutControl">
         <h3>Módulo 08 - Estruturas de Controle</h3>
         <ul>
             <li>
@@ -94,7 +94,7 @@
         </ul>
     </div>
     
-    <div class="modulo orange">
+    <div class="modulo funcoes">
         <h3>Módulo 09 - Funções</h3>
         <ul>
             <li>
@@ -115,7 +115,7 @@
         </ul>
     </div>
     
-    <div class="modulo darkred">
+    <div class="modulo poo">
         <h3>Módulo 10 - Poo</h3>
         <ul>
             <li>
@@ -157,7 +157,7 @@
         </ul>
     </div>
     
-    <div class="modulo darkgreen">
+    <div class="modulo includes">
         <h3>Módulo 11 - Includes</h3>
         <ul>
             <li>
@@ -175,7 +175,7 @@
         </ul>
     </div>
 
-    <div class="modulo darkblue">
+    <div class="modulo namespace">
         <h3>Módulo 12 - Namespace</h3>
         <ul>
             <li>
@@ -184,7 +184,7 @@
         </ul>
     </div>
 
-    <div class="modulo grey">
+    <div class="modulo tratErro">
         <h3>Módulo 13 - Tratamento de Erro</h3>
         <ul>
             <li>
@@ -199,7 +199,7 @@
         </ul>
     </div>
 
-    <div class="modulo pink">
+    <div class="modulo sessaoCookie">
         <h3>Módulo 14 - Sessão & Cookie</h3>
         <ul>
             <li>
@@ -234,6 +234,15 @@
             </li>
             <li>
                 <a href="exercicio.php?dir=api&file=imagens">Imagens</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="modulo formulario">
+        <h3>Módulo 15 - Formulário</h3>
+        <ul>
+            <li>
+                <a href="exercicio.php?dir=formulario&file=datas_01">Formulário</a>
             </li>
         </ul>
     </div>
