@@ -220,6 +220,21 @@
             <li>
                 <a href="exercicio.php?dir=api&file=datas_02">Datas #02</a>
             </li>
+            <li>
+                <a href="exercicio.php?dir=api&file=escrever_arquivo">Escrevendo Arquivo</a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=api&file=ler_arquivo">Lendo Arquivo</a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=api&file=upload">Upload</a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=api&file=download">Download</a>
+            </li>
+            <li>
+                <a href="exercicio.php?dir=api&file=imagens">Imagens</a>
+            </li>
         </ul>
     </div>
 
