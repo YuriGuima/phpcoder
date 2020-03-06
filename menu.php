@@ -1,154 +1,115 @@
+<?php 
+
+function listarConteudo($titulo,$lista){
+    echo '<ul>';
+    foreach($lista as $item => $value): ?>
+        <li>
+            <a href="exercicio.php?dir=<?=$titulo?>&file=<?=strtolower($item)?>"><?=$value?> X</a>
+        </li>
+    <?php endforeach;
+    echo '</ul>';
+}
+
+?>
+
 <nav class="modulos">
     <div class="modulo green">
         <h3>Módulo 01 - Básico</h3>
-        <ul>
-            <li>
-                <a href="exercicio.php?dir=basico&file=hello">Hello World!!!</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=basico&file=html">Integração HTML</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=basico&file=css">Integração CSS</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=basico&file=desafio">Desafio</a>
-            </li>
-        </ul>
+        <?php 
+        $modulo1 = array(
+            'hello'=>'Hello World',
+            'html'=>'Integração HTML',
+            'css'=>'Integração CSS',
+            'desafio'=>'Desafio'
+        );
+        listarConteudo('basico',$modulo1);
+        ?>
+
     </div>
     <div class="modulo integracao">
         <h3>Módulo 02 - Tipos</h3>
-        <ul>
-            <li>
-                <a href="exercicio.php?dir=tipos&file=int">Integer</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=tipos&file=float">Float</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=tipos&file=aritmeticas">Operações Aritméticas</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=tipos&file=string">String</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=tipos&file=boolean">Boolean</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=tipos&file=conversao">Conversões</a>
-            </li>
-        </ul>
+        <?php
+        $modulo2 = array(
+            'int'=>'Integer',
+            'float'=>'Float',
+            'aritmeticas'=>'Operações Aritméticas',
+            'string'=>'String',
+            'boolean'=>'Boolean',
+            'conversao'=>'Conversões'
+        );
+        listarConteudo('tipos',$modulo2);
+        ?>
     </div>
 
     <div class="modulo basicos">
         <h3>Módulo 03 - Variáveis</h3>
-        <ul>
-            <li>
-                <a href="exercicio.php?dir=variaveis&file=basico">Básico</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=variaveis&file=interpolacao">Interpolação</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=variaveis&file=varvariaveis">Varia.Variaveis</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=variaveis&file=constantes">Constantes</a>
-            </li>
-        </ul>
+        <?php
+        $modulo3 = array(
+            'basico'=>'Básico',
+            'interpolacao'=>'Interpolação',
+            'varvariaveis'=>'Varia.Variaveis',
+            'constantes'=>'Constantes'
+        );
+        listarConteudo('variaveis',$modulo3);
+        ?>
     </div>
     
     <div class="modulo vars">
         <h3>Módulo 07 - Array</h3>
-        <ul>
-            <li>
-                <a href="exercicio.php?dir=array&file=basico">Básico</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=array&file=constantes">Arrays Constantes</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=array&file=get">$_GET</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=array&file=post">$_POST</a>
-            </li>
-        </ul>
+        <?php
+        $modulo7 = array(
+            'basico'=>'Básico',
+            'constantes'=>'Arrays Constantes',
+            'get'=>'$_GET',
+            'post'=>'$_POST'
+        );
+        listarConteudo('array',$modulo7);
+        ?>
     </div>
     
     <div class="modulo estrutControl">
         <h3>Módulo 08 - Estruturas de Controle</h3>
-        <ul>
-            <li>
-                <a href="exercicio.php?dir=estrutura_controle&file=for">For</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=estrutura_controle&file=foreach">Foreach</a>
-            </li>
-        </ul>
+        <?php
+        $modulo8 = array(
+            'for'=>'For',
+            'foreach'=>'Foreach'
+        );
+        listarConteudo('estrutura_controle',$modulo7);
+        ?>
     </div>
     
     <div class="modulo funcoes">
         <h3>Módulo 09 - Funções</h3>
-        <ul>
-            <li>
-                <a href="exercicio.php?dir=estrutura_controle&file=for">For</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=funcao&file=escopo">Escopo</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=funcao&file=arg_variavel">Argumentos Variáveis</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=funcao&file=arg_padrao">Argumento Padrão</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=funcao&file=map_filter">Map e Filter</a>
-            </li>
-        </ul>
+        <?php
+        $modulo9 = array(
+            'escopo'=>'Escopo',
+            'arg_variavel'=>'Argumentos Variáveis',
+            'arg_padrao'=>'Argumento Padrão',
+            'map_filter'=>'Mas e Filter'
+        );
+        listarConteudo('funcao',$modulo9);
+        ?>
     </div>
     
     <div class="modulo poo">
         <h3>Módulo 10 - Poo</h3>
-        <ul>
-            <li>
-                <a href="exercicio.php?dir=poo&file=membros">Testes</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=poo&file=classe">Primeira Classe</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=poo&file=const_dest">Construtor e Destrutor</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=poo&file=heranca">Herança</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=poo&file=estatico">Membros Estáticos</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=poo&file=interface">Interface</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=poo&file=abstratic_class">Classe Abstrata</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=poo&file=final">Modificador Final</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=poo&file=traits">Traits #01</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=poo&file=traits_2">Traits #02</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=poo&file=magic_methods">Métodos Mágicos</a>
-            </li>
-            <li>
-                <a href="exercicio.php?dir=poo&file=polimorfismo">Polimorfismo</a>
-            </li>
-        </ul>
+        <?php
+        $modulo10 = array(
+            'membros'=>'Testes',
+            'classe'=>'Primeira Classe',
+            'const_dest'=>'Construtor e Destrutor',
+            'heranca'=>'Herança',
+            'estatico'=>'Membros Estáticos',
+            'interface'=>'Interface',
+            'abstratic_class'=>'Classe Abstrata',
+            'final'=>'Modificador Final',
+            'traits'=>'Traits #01',
+            'traits_2'=>'Traits #02',
+            'magic_methods'=>'Métodos Mágicos',
+            'polimorfismo'=>'Polimorfismo'
+        );
+        listarConteudo('poo',$modulo10);
+        ?>
     </div>
     
     <div class="modulo includes">
@@ -241,6 +202,16 @@
             <li>
                 <a href="exercicio.php?dir=formulario&file=formulario">Formulário</a>
             </li>
+            <?php $lista = array('Alfa','Omega','Beta');
+            
+            foreach($lista as $item => $value): ?>
+                
+                <li>
+                    <a href="exercicio.php?dir=api&file=<?=strtolower($value)?>"><?= $value ?></a>
+                </li>
+                
+            <?php endforeach; ?>
+            ?>
         </ul>
     </div>
 
